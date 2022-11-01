@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T09:42:04.182Z" agent="5.0 (Macintosh)" etag="r9fEh2xElHdQ7P3gzC4d" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T09:42:33.988Z" agent="5.0 (Macintosh)" etag="Ge1h9ccc6TQS0A368ia-" version="20.5.1" type="github">
   <diagram id="LMwuPY2iV8CUSOwi6vbU" name="售后子流程-20221101">
     <mxGraphModel dx="946" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -249,11 +249,8 @@
         <mxCell id="fwDDHEDy0muOu9YzreqG-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fwDDHEDy0muOu9YzreqG-71" source="fwDDHEDy0muOu9YzreqG-84" target="fwDDHEDy0muOu9YzreqG-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fwDDHEDy0muOu9YzreqG-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fwDDHEDy0muOu9YzreqG-71" source="fwDDHEDy0muOu9YzreqG-86" target="fwDDHEDy0muOu9YzreqG-84">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fwDDHEDy0muOu9YzreqG-89" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fwDDHEDy0muOu9YzreqG-88">
-          <mxGeometry x="0.1214" y="2" relative="1" as="geometry">
+        <mxCell id="fwDDHEDy0muOu9YzreqG-110" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fwDDHEDy0muOu9YzreqG-87">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
