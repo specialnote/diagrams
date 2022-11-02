@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T06:32:40.967Z" agent="5.0 (Macintosh)" etag="4XRhBiOlh7HNDCv8-vv9" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-02T07:18:45.201Z" agent="5.0 (Macintosh)" etag="W8iK_F7VaG7eekzRD6CM" version="20.5.1" type="github" pages="2">
   <diagram id="PyH1VdXvSaC9Dqwm7e8b" name="订单流程-20221101">
     <mxGraphModel dx="2102" dy="1360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -606,14 +606,6 @@
         <mxCell id="fwDDHEDy0muOu9YzreqG-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fwDDHEDy0muOu9YzreqG-71" source="fwDDHEDy0muOu9YzreqG-105" target="fwDDHEDy0muOu9YzreqG-107">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="vBL_zWnSXUPDTZ-G4Ldo" name="节点-20221102">
-    <mxGraphModel dx="946" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
