@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T09:48:14.000Z" agent="5.0 (Macintosh)" etag="bNLT3sZVrrzM3M_zUS_v" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T02:13:41.613Z" agent="5.0 (Macintosh)" etag="hmTY2xct-n_j3s89iQgd" version="20.5.1" type="github" pages="2">
   <diagram id="LMwuPY2iV8CUSOwi6vbU" name="售后子流程-20221101">
     <mxGraphModel dx="946" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -317,6 +317,62 @@
         </mxCell>
         <mxCell id="fwDDHEDy0muOu9YzreqG-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fwDDHEDy0muOu9YzreqG-71" source="fwDDHEDy0muOu9YzreqG-105" target="fwDDHEDy0muOu9YzreqG-107">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PyH1VdXvSaC9Dqwm7e8b" name="售后不同类型订单流程-20221101">
+    <mxGraphModel dx="946" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zj0lSgHEAc8baebXkqyq-1" value="远程购-保全-非垫付&#xa;自购-非垫付&#xa;" style="swimlane;horizontal=1;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="250" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="zj0lSgHEAc8baebXkqyq-2" value="车辆进场" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="zj0lSgHEAc8baebXkqyq-1">
+          <mxGeometry x="10" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O_E-vGtqt1srmJrxS2Ot-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zj0lSgHEAc8baebXkqyq-1" source="O_E-vGtqt1srmJrxS2Ot-4" target="O_E-vGtqt1srmJrxS2Ot-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_E-vGtqt1srmJrxS2Ot-4" value="付卖款" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="zj0lSgHEAc8baebXkqyq-1">
+          <mxGeometry x="130" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O_E-vGtqt1srmJrxS2Ot-5" value="完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zj0lSgHEAc8baebXkqyq-1">
+          <mxGeometry x="140" y="250" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O_E-vGtqt1srmJrxS2Ot-2" value="入库" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="zj0lSgHEAc8baebXkqyq-1">
+          <mxGeometry x="10" y="230" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O_E-vGtqt1srmJrxS2Ot-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zj0lSgHEAc8baebXkqyq-1" source="zj0lSgHEAc8baebXkqyq-2" target="O_E-vGtqt1srmJrxS2Ot-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_E-vGtqt1srmJrxS2Ot-1" value="车辆进场" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="670" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O_E-vGtqt1srmJrxS2Ot-13" value="远程购-保全-垫付&#xa;自购-垫付&#xa;" style="swimlane;horizontal=1;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="330" y="10" width="250" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="O_E-vGtqt1srmJrxS2Ot-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="O_E-vGtqt1srmJrxS2Ot-13" source="O_E-vGtqt1srmJrxS2Ot-14" target="O_E-vGtqt1srmJrxS2Ot-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_E-vGtqt1srmJrxS2Ot-14" value="车辆进场" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="O_E-vGtqt1srmJrxS2Ot-13">
+          <mxGeometry x="60" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O_E-vGtqt1srmJrxS2Ot-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="O_E-vGtqt1srmJrxS2Ot-13" source="O_E-vGtqt1srmJrxS2Ot-16" target="O_E-vGtqt1srmJrxS2Ot-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_E-vGtqt1srmJrxS2Ot-16" value="付卖款" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="O_E-vGtqt1srmJrxS2Ot-13">
+          <mxGeometry x="60" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O_E-vGtqt1srmJrxS2Ot-17" value="完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O_E-vGtqt1srmJrxS2Ot-13">
+          <mxGeometry x="70" y="340" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O_E-vGtqt1srmJrxS2Ot-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="O_E-vGtqt1srmJrxS2Ot-13" source="O_E-vGtqt1srmJrxS2Ot-18" target="O_E-vGtqt1srmJrxS2Ot-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_E-vGtqt1srmJrxS2Ot-18" value="入库" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="O_E-vGtqt1srmJrxS2Ot-13">
+          <mxGeometry x="60" y="250" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
