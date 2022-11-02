@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T02:40:45.836Z" agent="5.0 (Macintosh)" etag="XyVal7lhwCMMAsNbU9jM" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-02T02:42:31.831Z" agent="5.0 (Macintosh)" etag="Wsx9lacC3rgG8nuZnRPu" version="20.5.1" type="github" pages="2">
   <diagram id="PyH1VdXvSaC9Dqwm7e8b" name="售后不同类型订单流程-20221101">
-    <mxGraphModel dx="1892" dy="1224" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -231,7 +231,7 @@
         <mxCell id="O_E-vGtqt1srmJrxS2Ot-93" value="入库" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="O_E-vGtqt1srmJrxS2Ot-88">
           <mxGeometry x="30" y="70" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O_E-vGtqt1srmJrxS2Ot-95" value="Vertical Container" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="O_E-vGtqt1srmJrxS2Ot-95" value="现场拍" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="950" y="690" width="460" height="580" as="geometry" />
         </mxCell>
         <mxCell id="O_E-vGtqt1srmJrxS2Ot-97" value="收买款" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="O_E-vGtqt1srmJrxS2Ot-95">
