@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T08:26:16.228Z" agent="5.0 (Macintosh)" etag="JENlDvFDeR9GgnftNZ4M" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-14T08:35:05.117Z" agent="5.0 (Macintosh)" etag="Q1jQsLMvijfaJOH1bMb4" version="20.5.1" type="github">
   <diagram id="irxYXEMwynxG1fhxJzVo" name="Page-1">
     <mxGraphModel dx="1426" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,10 +13,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aLDOUh4v3opePZZqZGgN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="L5ERG233UL1eMyCegkhS-21" target="aLDOUh4v3opePZZqZGgN-1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="520" />
+              <mxPoint x="510" y="520" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="aLDOUh4v3opePZZqZGgN-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L5ERG233UL1eMyCegkhS-21" target="aLDOUh4v3opePZZqZGgN-21">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="520" />
+              <mxPoint x="680" y="520" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="aLDOUh4v3opePZZqZGgN-29" value="关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aLDOUh4v3opePZZqZGgN-28">
           <mxGeometry x="-0.9368" y="-1" relative="1" as="geometry">
@@ -24,21 +35,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="L5ERG233UL1eMyCegkhS-21" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SequenceFlow&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;+ Process process&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ String sourceRef&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ String targetRef&lt;br&gt;+ String conditionStr&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Condition condition&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Boolean check()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ void initCondition(ProgressForm form)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="230" width="220" height="240" as="geometry" />
+          <mxGeometry x="490" y="230" width="220" height="240" as="geometry" />
         </mxCell>
         <mxCell id="aLDOUh4v3opePZZqZGgN-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Condition&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- String conditionStr&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ConditionForm form&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Boolean check()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="560" width="160" height="90" as="geometry" />
+          <mxGeometry x="430" y="560" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="aLDOUh4v3opePZZqZGgN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="aLDOUh4v3opePZZqZGgN-2" target="aLDOUh4v3opePZZqZGgN-7">
+        <mxCell id="aLDOUh4v3opePZZqZGgN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="aLDOUh4v3opePZZqZGgN-2" target="aLDOUh4v3opePZZqZGgN-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="820" y="180" />
+              <mxPoint x="1100" y="180" />
               <mxPoint x="480" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="aLDOUh4v3opePZZqZGgN-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Task&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Process process&lt;br&gt;&lt;/p&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ List&amp;lt;SequenceFlow&amp;gt; getAllNextFlow()&lt;br&gt;+ List&amp;lt;SequenceFlow&amp;gt; getActiveNextFlow()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="230" width="280" height="170" as="geometry" />
+          <mxGeometry x="970" y="225" width="260" height="170" as="geometry" />
         </mxCell>
         <mxCell id="aLDOUh4v3opePZZqZGgN-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;UserTask&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Task task&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Boolean check()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="710" width="160" height="150" as="geometry" />
@@ -54,27 +65,27 @@
         <mxCell id="aLDOUh4v3opePZZqZGgN-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Process&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ StartEvent getStartEvent()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="230" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="aLDOUh4v3opePZZqZGgN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="aLDOUh4v3opePZZqZGgN-5" target="aLDOUh4v3opePZZqZGgN-7">
+        <mxCell id="aLDOUh4v3opePZZqZGgN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;exitX=0.475;exitY=-0.022;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aLDOUh4v3opePZZqZGgN-5" target="aLDOUh4v3opePZZqZGgN-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="330" y="180" />
+              <mxPoint x="304" y="180" />
               <mxPoint x="480" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLDOUh4v3opePZZqZGgN-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;StartEvent&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="230" width="160" height="90" as="geometry" />
+        <mxCell id="aLDOUh4v3opePZZqZGgN-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;StartEvent&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SequenceFlow getActiveNextFlow()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="230" width="240" height="90" as="geometry" />
         </mxCell>
         <mxCell id="aLDOUh4v3opePZZqZGgN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="aLDOUh4v3opePZZqZGgN-6" target="aLDOUh4v3opePZZqZGgN-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1070" y="180" />
+              <mxPoint x="1370" y="180" />
               <mxPoint x="480" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="aLDOUh4v3opePZZqZGgN-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;EndEvent&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp; &lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Boolean check()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="990" y="230" width="160" height="90" as="geometry" />
+          <mxGeometry x="1290" y="220" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="aLDOUh4v3opePZZqZGgN-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProgressObject&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp; + String Id:unique&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ String name&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="50" width="160" height="90" as="geometry" />
@@ -95,6 +106,9 @@
         </mxCell>
         <mxCell id="aLDOUh4v3opePZZqZGgN-30" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;UserProgress&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp; + Process process&lt;br&gt;&amp;nbsp; + ProgressForm form&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - String businessId&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UserProgress getInstance(String progressId)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UserProgress getInstance(String progressId, String businessId)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ initBusinessId(String id)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt; + void begin()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="710" width="360" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="aLDOUh4v3opePZZqZGgN-31" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Gateway&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="230" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
