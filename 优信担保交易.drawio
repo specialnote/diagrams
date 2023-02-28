@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-28T01:50:53.923Z" agent="5.0 (Macintosh)" etag="a6UuKlAwYm6_kZ90qJCb" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-28T02:42:35.674Z" agent="5.0 (Macintosh)" etag="zycfuJo7_zW8eEnw6cVd" version="20.5.3" type="github">
   <diagram id="h3CSzwQBVvNEi9bYj9ZV" name="Page-1">
-    <mxGraphModel dx="1906" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,9 +26,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zE71gSJNUN73lAzTByjQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.438;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zE71gSJNUN73lAzTByjQ-13" target="zE71gSJNUN73lAzTByjQ-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zE71gSJNUN73lAzTByjQ-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="zE71gSJNUN73lAzTByjQ-13" target="zE71gSJNUN73lAzTByjQ-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zE71gSJNUN73lAzTByjQ-13" value="支付订单" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -90,9 +87,6 @@
         </mxCell>
         <mxCell id="zE71gSJNUN73lAzTByjQ-63" value="支付订单" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-185" y="500" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zE71gSJNUN73lAzTByjQ-65" value="分账记录" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
