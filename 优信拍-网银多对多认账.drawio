@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T03:46:16.059Z" agent="5.0 (Macintosh)" version="21.0.6" etag="dDsZChqGE5qWjCw9VszU" type="github"><diagram name="Page-1" id="fpYvHtxNB4w4uJ5ZzWT5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-28T03:57:41.106Z" agent="5.0 (Macintosh)" etag="MSVhyawHzX2QaUv4bV-a" version="21.0.6" type="github">
+  <diagram name="Page-1" id="fpYvHtxNB4w4uJ5ZzWT5">
+    <mxGraphModel dx="1434" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b7ro-gV5mYTYyai0SoZE-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b7ro-gV5mYTYyai0SoZE-1" target="b7ro-gV5mYTYyai0SoZE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b7ro-gV5mYTYyai0SoZE-4" value="&lt;div&gt;1 -&amp;gt; n&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b7ro-gV5mYTYyai0SoZE-3">
+          <mxGeometry x="-0.525" y="2" relative="1" as="geometry">
+            <mxPoint x="21" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b7ro-gV5mYTYyai0SoZE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b7ro-gV5mYTYyai0SoZE-1" target="b7ro-gV5mYTYyai0SoZE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b7ro-gV5mYTYyai0SoZE-7" value="&lt;div&gt;1 -&amp;gt; n&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" vertex="1" connectable="0" parent="b7ro-gV5mYTYyai0SoZE-6">
+          <mxGeometry x="-0.32" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b7ro-gV5mYTYyai0SoZE-1" value="认账批次" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b7ro-gV5mYTYyai0SoZE-2" value="业务订单" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="360" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b7ro-gV5mYTYyai0SoZE-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b7ro-gV5mYTYyai0SoZE-5" target="b7ro-gV5mYTYyai0SoZE-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b7ro-gV5mYTYyai0SoZE-17" value="&lt;div&gt;1 -&amp;gt; n&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b7ro-gV5mYTYyai0SoZE-15">
+          <mxGeometry x="0.2" y="-3" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b7ro-gV5mYTYyai0SoZE-5" value="汇款记录" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="130" y="310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b7ro-gV5mYTYyai0SoZE-14" value="中台认账记录" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
