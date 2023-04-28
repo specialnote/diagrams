@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T03:57:41.106Z" agent="5.0 (Macintosh)" etag="MSVhyawHzX2QaUv4bV-a" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-28T04:08:35.726Z" agent="5.0 (Macintosh)" etag="8Vs5v8E5lY23MtgFV6Hg" version="21.0.6" type="github">
   <diagram name="Page-1" id="fpYvHtxNB4w4uJ5ZzWT5">
-    <mxGraphModel dx="1434" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,11 +20,17 @@
             <mxPoint x="-3" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="b7ro-gV5mYTYyai0SoZE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b7ro-gV5mYTYyai0SoZE-1" target="b7ro-gV5mYTYyai0SoZE-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="b7ro-gV5mYTYyai0SoZE-1" value="认账批次" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="120" y="100" width="120" height="60" as="geometry" />
+          <mxGeometry x="260" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b7ro-gV5mYTYyai0SoZE-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b7ro-gV5mYTYyai0SoZE-2" target="b7ro-gV5mYTYyai0SoZE-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b7ro-gV5mYTYyai0SoZE-2" value="业务订单" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="360" y="100" width="100" height="60" as="geometry" />
+          <mxGeometry x="470" y="290" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b7ro-gV5mYTYyai0SoZE-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b7ro-gV5mYTYyai0SoZE-5" target="b7ro-gV5mYTYyai0SoZE-14">
           <mxGeometry relative="1" as="geometry" />
@@ -35,10 +41,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b7ro-gV5mYTYyai0SoZE-5" value="汇款记录" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="130" y="310" width="100" height="60" as="geometry" />
+          <mxGeometry x="270" y="500" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b7ro-gV5mYTYyai0SoZE-14" value="中台认账记录" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b7ro-gV5mYTYyai0SoZE-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b7ro-gV5mYTYyai0SoZE-18" target="b7ro-gV5mYTYyai0SoZE-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b7ro-gV5mYTYyai0SoZE-18" value="认账 Service" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b7ro-gV5mYTYyai0SoZE-22" value="&lt;div&gt;- 创建批次&lt;/div&gt;&lt;div&gt;- 添加订单 (绑定过批次、支付中、已支付 订单不能绑定)&lt;/div&gt;&lt;div&gt;- 删除订单 ()&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="85" width="365" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="b7ro-gV5mYTYyai0SoZE-24" value="认账订单" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
