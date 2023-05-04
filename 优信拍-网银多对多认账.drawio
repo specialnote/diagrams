@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T03:56:58.133Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="LNUejMu-IJGoXqFnMHq1" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-04T04:02:49.131Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="5hPFk2hGkAaLY99vRMbS" version="21.2.3" type="github">
   <diagram name="Page-1" id="fpYvHtxNB4w4uJ5ZzWT5">
     <mxGraphModel dx="2284" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b7ro-gV5mYTYyai0SoZE-2" value="业务订单" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="440" y="290" width="100" height="60" as="geometry" />
+          <mxGeometry x="470" y="290" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b7ro-gV5mYTYyai0SoZE-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b7ro-gV5mYTYyai0SoZE-5" target="b7ro-gV5mYTYyai0SoZE-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry x="260" y="120" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b7ro-gV5mYTYyai0SoZE-22" value="&lt;div&gt;- 创建批次&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 判断多个订单是否可以进行批量认账&lt;/div&gt;&lt;div&gt;- 查询多个订单的认账状态&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 添加订单 (只有 未绑定 状态订单能绑定到当前批次)&lt;br&gt;&lt;div&gt;- 未提交-删除 (删除绑定关系)&lt;/div&gt;- 已提交-删除 (删除绑定、调用中台删除)&lt;/div&gt;&lt;div&gt;- 应收金额汇总 (添加、删除 时候都需要重新计算)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 添加认账记录&lt;/div&gt;&lt;div&gt;- 删除认账记录(未提交删除、已提交删除)&lt;/div&gt;&lt;div&gt;- 撤销认账记录(未提交撤销、已提交撤销)&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 修改认账记录 (未提交进行修改)&lt;br&gt;- 增量修改认账记录(复制一份认账记录，用新数据更新，旧记录删除)&lt;/div&gt;&lt;div&gt;- 汇款金额汇总、退款金额汇总&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 金额校验(应收、汇款、退款)&lt;/div&gt;&lt;div&gt;- 暂存批次信息&lt;/div&gt;&lt;div&gt;- 提交批次信息&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="-5" width="475" height="355" as="geometry" />
+          <mxGeometry x="-370" y="-37.5" width="475" height="355" as="geometry" />
         </mxCell>
         <mxCell id="o6qvqLgRWWO_v4bCrPXF-3" value="&lt;h1&gt;订单状态&lt;br&gt;&lt;/h1&gt;&lt;p&gt;未绑定&lt;br&gt;已绑定&lt;br&gt;支付中&lt;br&gt;已支付&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-670" y="40" width="190" height="170" as="geometry" />
@@ -76,27 +76,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="o6qvqLgRWWO_v4bCrPXF-5" value="拍卖订单" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="590" y="250" width="100" height="60" as="geometry" />
+          <mxGeometry x="640" y="250" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o6qvqLgRWWO_v4bCrPXF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-7" target="b7ro-gV5mYTYyai0SoZE-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o6qvqLgRWWO_v4bCrPXF-7" value="保证金充值" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="590" y="320" width="100" height="60" as="geometry" />
+          <mxGeometry x="640" y="320" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o6qvqLgRWWO_v4bCrPXF-11" value="1&amp;lt;-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="570" y="300" as="geometry">
+          <mxGeometry x="610" y="310" as="geometry">
             <mxPoint x="-10" y="35" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o6qvqLgRWWO_v4bCrPXF-12" value="- 初始化订单&lt;br&gt;- 获取应收金额&lt;br&gt;&lt;div&gt;- 更新应收金额&lt;/div&gt;&lt;div&gt;- 订单认账成功回调&lt;/div&gt;&lt;div&gt;- 调用三方&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="410" width="300" height="100" as="geometry" />
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-12" value="- 初始化订单&lt;br&gt;- 获取应收金额&lt;br&gt;&lt;div&gt;- 更新应收金额&lt;/div&gt;&lt;div&gt;- 订单认账成功回调&lt;/div&gt;&lt;div&gt;- 调用三方&lt;/div&gt;&lt;div&gt;- 管理订单状态&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-40" width="300" height="110" as="geometry" />
         </mxCell>
         <mxCell id="o6qvqLgRWWO_v4bCrPXF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-13" target="o6qvqLgRWWO_v4bCrPXF-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o6qvqLgRWWO_v4bCrPXF-13" value="业务订单 Service" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="430" y="180" width="120" height="40" as="geometry" />
+          <mxGeometry x="460" y="180" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6qvqLgRWWO_v4bCrPXF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.613;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-16" target="o6qvqLgRWWO_v4bCrPXF-18">
           <mxGeometry relative="1" as="geometry" />
