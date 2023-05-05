@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-05T03:08:45.128Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="xgwbl3ECXabfRS3pp1xm" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-05T03:15:54.391Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="BzrVBAthA4qkn2e5uJBR" version="21.2.3" type="github">
   <diagram name="Page-1" id="fpYvHtxNB4w4uJ5ZzWT5">
     <mxGraphModel dx="2284" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -259,10 +259,13 @@
         <mxCell id="o6qvqLgRWWO_v4bCrPXF-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-97" target="o6qvqLgRWWO_v4bCrPXF-92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o6qvqLgRWWO_v4bCrPXF-97" value="&lt;div&gt;- 此时业务订单是已收款状态&lt;/div&gt;&lt;div&gt;- 此时批次一定是已经提交过&lt;/div&gt;&lt;div&gt;- 此时 汇款金额 = 总退款金额(历史已退 + 当前应退) + 订单应付汇总&lt;/div&gt;&lt;div&gt;- 此时一定有一笔和当前订单金额相等的 已认账金额&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=south;" vertex="1" parent="1">
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-97" value="&lt;div&gt;- 此时业务订单是已收款状态&lt;/div&gt;&lt;div&gt;- 此时批次一定是已经提交过&lt;/div&gt;&lt;div&gt;- 此时 汇款金额 = 总退款金额(历史已退 + 当前应退) + 订单应付汇总&lt;/div&gt;&lt;div&gt;- 此时一定有一笔和当前订单金额相等的 &lt;b&gt;已认账金额N&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=south;" vertex="1" parent="1">
           <mxGeometry x="-770" y="1790" width="410" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="o6qvqLgRWWO_v4bCrPXF-103" value="调用中台 重置 接口" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-103" target="o6qvqLgRWWO_v4bCrPXF-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-103" value="手动调用中台&lt;br&gt; 重置 接口" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-260" y="1660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o6qvqLgRWWO_v4bCrPXF-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.383;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-104" target="o6qvqLgRWWO_v4bCrPXF-103">
@@ -273,6 +276,50 @@
         </mxCell>
         <mxCell id="o6qvqLgRWWO_v4bCrPXF-106" value="中台支付订单" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="460" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-108" target="o6qvqLgRWWO_v4bCrPXF-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-108" value="手动&lt;br&gt;业务订单抓单" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-110" target="o6qvqLgRWWO_v4bCrPXF-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-110" value="&lt;div&gt;- 清空当前订单所有流程&lt;/div&gt;&lt;div&gt;- 当前订单变成 未支付 状态&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1800" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-112" target="o6qvqLgRWWO_v4bCrPXF-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-112" value="手动&lt;br&gt;删除业务订单和批次绑定关系" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-114" target="o6qvqLgRWWO_v4bCrPXF-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-114" value="获取批次信息接口&lt;br&gt;传订单列表\批次号&lt;br&gt;初始化 &lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;认账批次&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-116" target="o6qvqLgRWWO_v4bCrPXF-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-116" value="&lt;div&gt;- 此时批次信息内刚才订单被清空&lt;/div&gt;&lt;div&gt;- 此时汇款记录数据保持不变&lt;/div&gt;&lt;div&gt;- 之前已认证金额N 变成 可认账金额N&lt;/div&gt;&lt;div&gt;- 此时 汇款金额 = 总退款金额 + 订单应付 + 可认账金额N&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1760" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-121" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-117" target="o6qvqLgRWWO_v4bCrPXF-120">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="1990" />
+              <mxPoint x="450" y="1990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-117" value="是否再添加订单" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1880" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-120" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="390" y="2030" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
