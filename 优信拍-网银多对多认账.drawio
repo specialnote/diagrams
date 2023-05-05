@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-05T02:55:04.991Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="Sa3tsN14JSonNwN3mRPC" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-05T02:55:25.492Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="Yt6eY889cssI13evNDm-" version="21.2.3" type="github">
   <diagram name="Page-1" id="fpYvHtxNB4w4uJ5ZzWT5">
     <mxGraphModel dx="2284" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -193,7 +193,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o6qvqLgRWWO_v4bCrPXF-60" value="根据 认账批次 信息&lt;br&gt;初始化页面" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="390" y="1370" width="120" height="60" as="geometry" />
+          <mxGeometry x="290" y="1370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o6qvqLgRWWO_v4bCrPXF-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-62" target="o6qvqLgRWWO_v4bCrPXF-57">
           <mxGeometry relative="1" as="geometry" />
