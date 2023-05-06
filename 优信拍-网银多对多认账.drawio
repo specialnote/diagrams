@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T06:38:06.453Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="EAzWvTL-RRiy5A7cR9em" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T06:58:59.419Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="PAGJoDY4-MXn8ZVYajEC" version="21.2.3" type="github">
   <diagram name="Page-1" id="fpYvHtxNB4w4uJ5ZzWT5">
-    <mxGraphModel dx="2643" dy="2093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2154" dy="1822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,7 +72,7 @@
         <mxCell id="b7ro-gV5mYTYyai0SoZE-18" value="认账 Service" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="260" y="120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="b7ro-gV5mYTYyai0SoZE-22" value="&lt;div&gt;- 创建批次&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 判断多个订单认账状态(是否绑定批次，是否不同批次，是否认账中，是否认账成功)&lt;/div&gt;&lt;div&gt;- 添加订单 (只有 未绑定 状态订单能绑定到当前批次)&lt;br&gt;&lt;div&gt;- 未提交-删除 (删除绑定关系)&lt;/div&gt;- 已提交-删除 (删除绑定、调用中台删除)&lt;/div&gt;&lt;div&gt;- 应收金额汇总 (添加、删除 时候都需要重新计算)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 添加认账记录&lt;/div&gt;&lt;div&gt;- 删除认账记录(未提交删除)&lt;/div&gt;&lt;div&gt;- 撤销认账记录(已提交撤销)&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 修改认账记录 (未提交进行修改)&lt;br&gt;- 增量修改认账记录(撤销的、未到账的记录，复制一份内容，用新数据更新，旧记录删除)&lt;/div&gt;&lt;div&gt;- 汇款金额汇总、退款金额汇总（本次应退、历史已退）&lt;/div&gt;&lt;div&gt;- 根据中台汇款记录状态计算本地汇款相关状态&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 金额校验(应收、汇款、退款)&lt;/div&gt;&lt;div&gt;- 暂存批次信息&lt;/div&gt;&lt;div&gt;- 提交批次信息&lt;/div&gt;&lt;div&gt;- 对比本地汇款记录和中台汇款记录数据，增加、变动同步中台&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 业务方记录备注(详细变动原因)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="b7ro-gV5mYTYyai0SoZE-22" value="&lt;div&gt;- 创建批次&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 判断多个订单认账状态(是否绑定批次，是否不同批次，是否认账中，是否认账成功)&lt;/div&gt;&lt;div&gt;- 添加订单 (只有 未绑定 状态订单能绑定到当前批次)&lt;br&gt;&lt;div&gt;- 未提交-删除 (删除绑定关系)&lt;/div&gt;- 已提交-删除 (删除绑定、调用中台删除)&lt;/div&gt;&lt;div&gt;- 应收金额汇总 (添加、删除 时候都需要重新计算)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 添加认账记录&lt;/div&gt;&lt;div&gt;- 删除认账记录(未提交删除)&lt;/div&gt;&lt;div&gt;- 撤销认账记录(已提交撤销)&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 修改认账记录 (未提交进行修改)&lt;br&gt;- 增量修改认账记录(撤销的、未到账的记录，复制一份内容，用新数据更新，旧记录删除)&lt;/div&gt;&lt;div&gt;- 汇款金额汇总、退款金额汇总（本次应退、历史已退）&lt;/div&gt;&lt;div&gt;- 根据中台汇款记录状态计算本地汇款相关状态&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 金额校验(应收、汇款、退款)&lt;/div&gt;&lt;div&gt;- 暂存批次信息&lt;/div&gt;&lt;div&gt;- 提交批次信息&lt;/div&gt;&lt;div&gt;- 对比本地汇款记录和中台汇款记录数据，增加、变动同步中台&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-370" y="-37.5" width="490" height="355" as="geometry" />
         </mxCell>
         <mxCell id="o6qvqLgRWWO_v4bCrPXF-3" value="&lt;h1&gt;订单状态&lt;br&gt;&lt;/h1&gt;&lt;p&gt;未提交&lt;br&gt;未收款&lt;br&gt;收款中&lt;br&gt;已收款&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
@@ -444,8 +444,67 @@
         <mxCell id="o6qvqLgRWWO_v4bCrPXF-162" value="中台汇款记录" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="430" y="570" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o6qvqLgRWWO_v4bCrPXF-177" value="异常订单处理" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-580" y="2470" width="100" height="60" as="geometry" />
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-179" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-177" target="o6qvqLgRWWO_v4bCrPXF-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-177" value="提交汇款记录" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="2700" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-183" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-178" target="o6qvqLgRWWO_v4bCrPXF-182">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-178" value="业务提交接口" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="2700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-180" target="o6qvqLgRWWO_v4bCrPXF-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-180" value="&lt;div&gt;- 判断 批次、订单关系&lt;/div&gt;&lt;div&gt;- 判断订单支付状态&lt;/div&gt;&lt;div&gt;- 获取订单应付金额&lt;/div&gt;&lt;div&gt;- 金额校验&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 冻结代金券&lt;/div&gt;&lt;div&gt;- 请求 YxpFinance 项目网银认账接口&lt;/div&gt;&lt;div&gt;- 记录操作日志&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="-463.75" y="2520" width="227.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-193" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-182" target="o6qvqLgRWWO_v4bCrPXF-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-182" value="获取历史 &lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;认账批次 &lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-236.25" y="2700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-187" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-184" target="o6qvqLgRWWO_v4bCrPXF-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-184" value="对比新批次、旧批次" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="2980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-191" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-186" target="o6qvqLgRWWO_v4bCrPXF-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-186" value="删除订单" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-190" value="是否已提交" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-197" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-192" target="o6qvqLgRWWO_v4bCrPXF-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-192" value="对比得到具体操作" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="2700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-199" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-196" target="o6qvqLgRWWO_v4bCrPXF-198">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6qvqLgRWWO_v4bCrPXF-196" target="o6qvqLgRWWO_v4bCrPXF-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-201" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o6qvqLgRWWO_v4bCrPXF-200">
+          <mxGeometry x="-0.3374" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-196" value="操作校验" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o6qvqLgRWWO_v4bCrPXF-198" value="失败" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2690" width="150" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
